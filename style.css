@@ -80,9 +80,7 @@
     padding: 40px;
     margin-top: 30px;
     background-color: #00B39B;
-    border-radius: 5px;
-
-    
+    border-radius: 5px;  
 }
 .card-col2 {
     flex-basis: 25%;
@@ -131,6 +129,34 @@
     gap: 4rem;
     flex-wrap: wrap;
 }
+.platform {
+    background-color: #00B39B;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 80%;
+
+}
+.text h3{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.text p{
+    margin: 1.6em 0;
+    /* line-height: 1.7142857143; */
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
 .sub-f {
     display: flex;
     flex-direction: column;
@@ -145,7 +171,6 @@
     font-weight: 300;
     letter-spacing: -0.3px;
     text-align: center;
-
 }
 .sub-f button {
     margin-left: 120px;
@@ -163,7 +188,6 @@
     letter-spacing: 0.04em;
     font-size: 14px;
     text-transform: uppercase;
-
 }
 .footer{
     text-align: center;
@@ -172,7 +196,6 @@
     font-family: Roboto, Arial, sans-serif;
     color: #ababab;
     padding-left: 100px;
-
 }
 .f-item{
     margin-top: 20px;
